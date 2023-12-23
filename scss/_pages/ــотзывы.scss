@@ -1,0 +1,1091 @@
+.oтзывы{
+    width: 1400px;
+    height: 800px;
+    border: $brd;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    &-top{
+        width: 50%;
+        height: 20%;
+        border: $brd;
+        flex-direction: column;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .rewiev{
+            width: 150px;
+        }
+        h1{
+            color: var(--, #1C1C1C);
+            text-align: center;
+            font-family: $roboto;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+        h2{
+            color: var(--, #1C1C1C);
+text-align: center;
+font-family:$roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+        }
+    }
+    &-center{
+        width: 85.5%;
+        height: 50%;
+        border: $brd;
+        margin-left: 9.5%;
+        display: flex;
+        gap: 20px;
+        padding-top: 100px;
+
+        .mariya-comment{
+    
+            width: 300px;
+            height: 334px;
+        border-radius: 30px;
+        background:  #F8F8F8;
+
+       .mariya-comment-top{
+       
+        position: relative;
+        background: url(../../img/mariya.png), lightgray 50%  ;
+        width: 91px;
+        background-size: cover;
+        height: 99px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        .stars{
+        position: absolute;
+        top: 100%;
+        left: -20%;
+        }
+        
+
+    }
+    .mariya-comment-ceneter{
+        margin-top: 30px;
+        width: 100%;
+        height: 15%;
+        border: $brd;
+        flex-direction: column;
+        gap: 5px;
+        display: flex;
+        h2{
+            color: #6B6B6B;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+width: 304px;
+        }
+        h3{
+            color: #6B6B6B;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            width: 304px;
+        }
+    }
+    .mariya-comment-bottom{
+        width: 100%;
+        height: 30%;
+        h3{
+            color: var(--, #1C1C1C);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px; /* 137.5% */
+width: 250px;
+        }
+       
+    }
+        }
+
+        .olga-comment{
+    
+            width: 300px;
+            height: 364px;
+        border-radius: 30px;
+        background:  #F8F8F8;
+
+       .olga-comment-top{
+       
+        position: relative;
+        background: url(../../img/aleks.png), lightgray 50%  ;
+        width: 91px;
+        background-size: cover;
+        height: 99px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        .stars{
+        position: absolute;
+        top: 100%;
+        left: -20%;
+        }
+        
+
+    }
+    .olga-comment-ceneter{
+        margin-top: 30px;
+        width: 100%;
+        height: 15%;
+        border: $brd;
+        flex-direction: column;
+        gap: 5px;
+        display: flex;
+        h2{
+            color: #6B6B6B;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+width: 304px;
+        }
+        h3{
+            color: #6B6B6B;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            width: 304px;
+        }
+    }
+    .olga-comment-bottom{
+        width: 100%;
+        height: 30%;
+        h3{
+            color: var(--, #1C1C1C);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px; /* 137.5% */
+width: 254px;
+        }
+       
+    }
+        }
+
+        .aleksandr-comment{
+    
+            width: 300px;
+            height: 304px;
+        border-radius: 30px;
+        background:  #F8F8F8;
+
+       .aleksandr-comment-top{
+       
+        position: relative;
+        background: url(../../img/elterinal.png), lightgray 50%  ;
+        width: 91px;
+        background-size: cover;
+        height: 99px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        .stars{
+        position: absolute;
+        top: 100%;
+        left: -20%;
+        }
+        
+
+    }
+    .aleksandr-comment-ceneter{
+        margin-top: 30px;
+        width: 100%;
+        height: 15%;
+        border: $brd;
+        flex-direction: column;
+        gap: 5px;
+        display: flex;
+        h2{
+            color: #6B6B6B;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+width: 304px;
+        }
+        h3{
+            color: #6B6B6B;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            width: 304px;
+        }
+    }
+    .aleksandr-comment-bottom{
+        width: 100%;
+        height: 30%;
+        h3{
+            color: var(--, #1C1C1C);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px; /* 137.5% */
+width: 254px;
+        }
+       
+    }
+        }
+
+        .eketerinal-comment{
+    
+            width: 302px;
+            height: 384px;
+        border-radius: 30px;
+        background:  #F8F8F8;
+
+       .eketerinal-comment-top{
+       
+        position: relative;
+        background: url(../../img/olga.png), lightgray 50%  ;
+        width: 91px;
+        background-size: cover;
+        height: 99px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        .stars{
+        position: absolute;
+        top: 100%;
+        left: -20%;
+        }
+        
+
+    }
+    .eketerinal-comment-ceneter{
+        margin-top: 30px;
+        width: 100%;
+        height: 15%;
+        border: $brd;
+        flex-direction: column;
+        gap: 5px;
+        display: flex;
+        h2{
+            color: #6B6B6B;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+width: 304px;
+        }
+        h3{
+            color: #6B6B6B;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            width: 304px;
+        }
+    }
+    .eketerinal-comment-bottom{
+        width: 100%;
+        height: 30%;
+        h3{
+            color: var(--, #1C1C1C);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px; /* 137.5% */
+width: 254px;
+        }
+       
+    }
+        }
+    }
+    &-bottom{
+        width: 1000px;
+        height: 70px;
+        border: $brd;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: -10px;
+        
+        .gорящие-туры-bottom-balcline{
+            width: 160px;
+            height: 2px;
+            flex-shrink: 0;
+            stroke-width: 2px;
+            background-color: #1C1C1C;
+     }
+        .gорящие-туры-bottom-whtline{
+            width: 950px;
+            margin-right: 20px;
+            height: 2px;
+            flex-shrink: 0;
+            stroke-width: 1px;
+            background-color: #e6e6e6;
+        }
+
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .oтзывы{
+    width: 1000px;
+    height: 800px;
+    border: $brd;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    &-top{
+        width: 50%;
+        height: 20%;
+        border: $brd;
+        flex-direction: column;
+        gap: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .rewiev{
+            width: 270px;
+        }
+        h1{
+            color: var(--, #1C1C1C);
+            text-align: center;
+            font-family: $roboto;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+        h2{
+            color: var(--, #1C1C1C);
+text-align: center;
+font-family:$roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+        }
+    }
+    &-center{
+        width: 85.5%;
+        height: 50%;
+        border: $brd;
+        margin-left: 5%;
+        display: flex;
+        gap: 20px;
+        padding-top: 100px;
+
+        .mariya-comment{
+    
+            width: 300px;
+            height: 334px;
+        border-radius: 30px;
+        background:  #F8F8F8;
+
+       .mariya-comment-top{
+       
+        position: relative;
+        background: url(../../img/mariya.png), lightgray 50%  ;
+        width: 91px;
+        background-size: cover;
+        height: 99px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        .stars{
+        position: absolute;
+        top: 100%;
+        left: -20%;
+        }
+        
+
+    }
+    .mariya-comment-ceneter{
+        margin-top: 30px;
+        width: 100%;
+        height: 15%;
+        border: $brd;
+        flex-direction: column;
+        gap: 5px;
+        display: flex;
+        h2{
+            color: #6B6B6B;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+width: 304px;
+        }
+        h3{
+            color: #6B6B6B;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            width: 304px;
+        }
+    }
+    .mariya-comment-bottom{
+        width: 100%;
+        height: 30%;
+        h3{
+            color: var(--, #1C1C1C);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px; /* 137.5% */
+width: 250px;
+        }
+       
+    }
+        }
+
+        .olga-comment{
+    
+            width: 300px;
+            height: 364px;
+        border-radius: 30px;
+        background:  #F8F8F8;
+
+       .olga-comment-top{
+       
+        position: relative;
+        background: url(../../img/aleks.png), lightgray 50%  ;
+        width: 91px;
+        background-size: cover;
+        height: 99px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        .stars{
+        position: absolute;
+        top: 100%;
+        left: -20%;
+        }
+        
+
+    }
+    .olga-comment-ceneter{
+        margin-top: 30px;
+        width: 100%;
+        height: 15%;
+        border: $brd;
+        flex-direction: column;
+        gap: 5px;
+        display: flex;
+        h2{
+            color: #6B6B6B;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+width: 304px;
+        }
+        h3{
+            color: #6B6B6B;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            width: 304px;
+        }
+    }
+    .olga-comment-bottom{
+        width: 100%;
+        height: 30%;
+        h3{
+            color: var(--, #1C1C1C);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px; /* 137.5% */
+width: 254px;
+        }
+       
+    }
+        }
+
+        .aleksandr-comment{
+    
+            width: 300px;
+            height: 304px;
+        border-radius: 30px;
+        background:  #F8F8F8;
+      
+
+       .aleksandr-comment-top{
+       
+        position: relative;
+        background: url(../../img/elterinal.png), lightgray 50%  ;
+        width: 91px;
+        background-size: cover;
+        height: 99px;
+        border-radius: 50%;
+        flex-shrink: 0;
+       
+        .stars{
+        position: absolute;
+        top: 100%;
+        left: -20%;
+        }
+        
+
+    }
+    .aleksandr-comment-ceneter{
+        margin-top: 30px;
+        width: 100%;
+        height: 15%;
+        border: $brd;
+        flex-direction: column;
+        gap: 5px;
+        display: flex;
+        h2{
+            color: #6B6B6B;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+width: 304px;
+        }
+        h3{
+            color: #6B6B6B;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            width: 304px;
+        }
+    }
+    .aleksandr-comment-bottom{
+        width: 100%;
+        height: 30%;
+        h3{
+            color: var(--, #1C1C1C);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px; /* 137.5% */
+width: 254px;
+        }
+       
+    }
+        }
+
+        .eketerinal-comment{
+    
+
+            width: 302px;
+            height: 384px;
+        border-radius: 30px;
+        background:  #F8F8F8;
+         display: none;
+
+       .eketerinal-comment-top{
+       
+        position: relative;
+        background: url(../../img/olga.png), lightgray 50%  ;
+        width: 91px;
+        background-size: cover;
+        height: 99px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        .stars{
+        position: absolute;
+        top: 100%;
+        left: -20%;
+        }
+        
+
+    }
+    .eketerinal-comment-ceneter{
+        margin-top: 30px;
+        width: 100%;
+        height: 15%;
+        border: $brd;
+        flex-direction: column;
+        gap: 5px;
+        display: flex;
+        h2{
+            color: #6B6B6B;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+width: 304px;
+        }
+        h3{
+            color: #6B6B6B;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            width: 304px;
+        }
+    }
+    .eketerinal-comment-bottom{
+        width: 100%;
+        height: 30%;
+        h3{
+            color: var(--, #1C1C1C);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px; /* 137.5% */
+width: 254px;
+        }
+       
+    }
+        }
+    }
+    &-bottom{
+        width: 900px;
+        height: 70px;
+        border: $brd;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: -10px;
+        
+        .gорящие-туры-bottom-balcline{
+            width: 160px;
+            height: 2px;
+            flex-shrink: 0;
+            stroke-width: 2px;
+            background-color: #1C1C1C;
+     }
+        .gорящие-туры-bottom-whtline{
+            width: 720px;
+            margin-right: 20px;
+            height: 2px;
+            flex-shrink: 0;
+            stroke-width: 1px;
+            background-color: #e6e6e6;
+        }
+
+    }
+    }
+}
+@media screen and (max-width:400px){
+
+.oтзывы{
+ width: 399px;
+    height: 1000px;
+    border: $brd;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+     &-top{
+        width: 100%;
+        height: 20%;
+        border: $brd;
+        flex-direction: column;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .rewiev{
+            width: 150px;
+        }
+        h1{
+            color: var(--, #1C1C1C);
+            text-align: center;
+            font-family: $roboto;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+        h2{
+            color: var(--, #1C1C1C);
+text-align: center;
+font-family:$roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+width: 239px;
+        }
+    }
+    &-center{
+        width: 85.5%;
+        height: 60%;
+        border: $brd;
+        // margin-left: 9.5%;
+        display: flex;
+        gap: 20px;
+        padding-top: 20px;
+
+        .mariya-comment{
+    
+            width: 350px;
+            height: 534px;
+        border-radius: 30px;
+        background:  #F8F8F8;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+       .mariya-comment-top{
+       
+        position: relative;
+        background: url(../../img/mariya.png), lightgray 50%  ;
+        width: 91px;
+        background-size: cover;
+        height: 99px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        .stars{
+        position: absolute;
+        top: 100%;
+        left: -20%;
+        }
+        
+
+    }
+    .mariya-comment-ceneter{
+        margin-top: 30px;
+        width: 100%;
+        height: 15%;
+        border: $brd;
+        flex-direction: column;
+        gap: 5px;
+        display: flex;
+        h2{
+            color: #6B6B6B;
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+width: 304px;
+        }
+        h3{
+            color: #6B6B6B;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            width: 304px;
+        }
+    }
+    .mariya-comment-bottom{
+        width: 100%;
+        height: 40%;
+        h3{
+            color: var(--, #1C1C1C);
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px; /* 137.5% */
+width: 250px;
+        }
+       
+    }
+        }
+
+        .olga-comment{
+    
+            width: 300px;
+            height: 364px;
+        border-radius: 30px;
+        background:  #F8F8F8;
+        display: none;
+
+       .olga-comment-top{
+       
+        position: relative;
+        background: url(../../img/aleks.png), lightgray 50%  ;
+        width: 91px;
+        background-size: cover;
+        height: 99px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        .stars{
+        position: absolute;
+        top: 100%;
+        left: -20%;
+        }
+        
+
+    }
+    .olga-comment-ceneter{
+        margin-top: 30px;
+        width: 100%;
+        height: 15%;
+        border: $brd;
+        flex-direction: column;
+        gap: 5px;
+        display: flex;
+        h2{
+            color: #6B6B6B;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+width: 304px;
+        }
+        h3{
+            color: #6B6B6B;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            width: 304px;
+        }
+    }
+    .olga-comment-bottom{
+        width: 100%;
+        height: 30%;
+        h3{
+            color: var(--, #1C1C1C);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px; /* 137.5% */
+width: 254px;
+        }
+       
+    }
+        }
+
+        .aleksandr-comment{
+    
+            width: 300px;
+            height: 304px;
+        border-radius: 30px;
+        background:  #F8F8F8;
+        display: none;
+
+       .aleksandr-comment-top{
+       
+        position: relative;
+        background: url(../../img/elterinal.png), lightgray 50%  ;
+        width: 91px;
+        background-size: cover;
+        height: 99px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        .stars{
+        position: absolute;
+        top: 100%;
+        left: -20%;
+        }
+        
+
+    }
+    .aleksandr-comment-ceneter{
+        margin-top: 30px;
+        width: 100%;
+        height: 15%;
+        border: $brd;
+        flex-direction: column;
+        gap: 5px;
+        display: flex;
+        h2{
+            color: #6B6B6B;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+width: 304px;
+        }
+        h3{
+            color: #6B6B6B;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            width: 304px;
+        }
+    }
+    .aleksandr-comment-bottom{
+        width: 100%;
+        height: 30%;
+        h3{
+            color: var(--, #1C1C1C);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px; /* 137.5% */
+width: 254px;
+        }
+       
+    }
+        }
+
+        .eketerinal-comment{
+        display: none;
+            width: 302px;
+            height: 384px;
+        border-radius: 30px;
+        background:  #F8F8F8;
+
+       .eketerinal-comment-top{
+       
+        position: relative;
+        background: url(../../img/olga.png), lightgray 50%  ;
+        width: 91px;
+        background-size: cover;
+        height: 99px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        .stars{
+        position: absolute;
+        top: 100%;
+        left: -20%;
+        }
+        
+
+    }
+    .eketerinal-comment-ceneter{
+        margin-top: 30px;
+        width: 100%;
+        height: 15%;
+        border: $brd;
+        flex-direction: column;
+        gap: 5px;
+        display: flex;
+        h2{
+            color: #6B6B6B;
+text-align: center;
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+width: 304px;
+        }
+        h3{
+            color: #6B6B6B;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            width: 304px;
+        }
+    }
+    .eketerinal-comment-bottom{
+        width: 100%;
+        height: 30%;
+        h3{
+            color: var(--, #1C1C1C);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px; /* 137.5% */
+width: 254px;
+        }
+       
+    }
+        }
+    }
+    &-bottom{
+        width: 349px;
+        height: 70px;
+        border: $brd;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: -10px;
+        
+        .gорящие-туры-bottom-balcline{
+            width: 70px;
+            height: 2px;
+            flex-shrink: 0;
+            stroke-width: 2px;
+            background-color: #1C1C1C;
+     }
+        .gорящие-туры-bottom-whtline{
+            width: 270px;
+            margin-right: 20px;
+            height: 2px;
+            flex-shrink: 0;
+            stroke-width: 1px;
+            background-color: #e6e6e6;
+        }
+
+    }
+}
+}

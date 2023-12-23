@@ -1,0 +1,947 @@
+.pопулярные-отели{
+    width: 1400px;
+    height: 700px;
+    border: $brd;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8;
+    &-top{
+        width: 500px;
+        border: $brd;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        .Hotels{
+            width: 140px;
+        }
+        h1{
+            color: black;
+            font-family: $roboto;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+        h2{
+            color: black;
+            font-family: $roboto;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+
+    }
+    &-center{
+       width: 100%;
+        border: $brd;
+        height: 50%;
+        ul{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            .marquis-li{
+                width: 100px;
+                height: 250px;
+                flex-shrink: 0;
+                background-image: url(../../img/marquis.png);
+                background-size: auto;
+                border-radius: 0px 30px 30px 0px;
+            }
+            .ritz-li{
+                width: 360px;
+                height: 280px;
+                flex-shrink: 0;
+                border-radius: 30px;
+                background-image: url(../../img/ritz.png);
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+                gap: 70px;
+                &-top{
+                    width: 100%;
+                    height: 30%;
+                    border: $brd;
+                    position: relative;
+                    p{
+                        font-family: 'Diphylleia', serif;
+                        color:  #ffffff;
+                            text-align: right;
+
+                            font-size: 65px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            text-transform: uppercase;
+                            width: 300px;
+                            
+                    }
+                    .star{
+                        position: absolute;
+                        top: 12%;
+                        left: 90%;
+                    }
+                }
+                &-bottom{
+                    margin-top: 50px;
+                    width: 100%;
+                    height: 30%;
+                    border: $brd;
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    h2{
+                        color:  #FFF;
+                        font-family: $roboto;
+                        font-size: 28px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        text-transform: uppercase;
+                        width: 300px;
+                    }
+                    p{
+                        color:  #FFF;
+                        font-family: $roboto;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 300;
+                        line-height: normal;
+                        width: 300px;
+                    }
+                }
+            }
+            .villa-li{
+                width: 400px;
+                height: 320px;
+                flex-shrink: 0;
+                border-radius: 30px;
+                background-image: url(../../img/villa.png);
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+                gap: 70px;
+                &-top{
+                    width: 100%;
+                    height: 30%;
+                    border: $brd;
+                    position: relative;
+                    p{
+                        font-family: 'Diphylleia', serif;
+                        color:  #ffffff;
+                            text-align: right;
+
+                            font-size: 65px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            text-transform: uppercase;
+                            width: 300px;
+                            
+                    }
+                    .star{
+                        position: absolute;
+                        top: 12%;
+                        left: 90%;
+                    }
+                }
+                &-bottom{
+                    margin-top: 50px;
+                    width: 100%;
+                    height: 30%;
+                    border: $brd;
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    h2{
+                        color:  #FFF;
+                        font-family: $roboto;
+                        font-size: 28px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        text-transform: uppercase;
+                        width: 300px;
+                    }
+                    p{
+                        color:  #FFF;
+                        font-family: $roboto;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 300;
+                        line-height: normal;
+                        width: 300px;
+                    }
+                }
+            }
+            .dassia-li{
+                width: 360px;
+                height: 280px;
+                flex-shrink: 0;
+                border-radius: 30px;
+                background-image: url(../../img/dassia.png);
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+                gap: 70px;
+                &-top{
+                    width: 100%;
+                    height: 30%;
+                    border: $brd;
+                    position: relative;
+                    p{
+                        font-family: 'Diphylleia', serif;
+                        color:  #ffffff;
+                            text-align: right;
+
+                            font-size: 65px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            text-transform: uppercase;
+                            width: 300px;
+                            
+                    }
+                    .star{
+                        position: absolute;
+                        top: 12%;
+                        left: 90%;
+                    }
+                }
+                &-bottom{
+                    margin-top: 50px;
+                    width: 100%;
+                    height: 30%;
+                    border: $brd;
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    h2{
+                        color:  #FFF;
+                        font-family: $roboto;
+                        font-size: 28px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        text-transform: uppercase;
+                        width: 300px;
+                    }
+                    p{
+                        color:  #FFF;
+                        font-family: $roboto;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 300;
+                        line-height: normal;
+                        width: 300px;
+                    }
+                }
+            }
+             .marri-li{
+                width: 100px;
+                height: 250px;
+                flex-shrink: 0;
+                background-image: url(../../img/marri.png);
+                background-size: auto;
+                border-radius: 30px 0px 0px 30px;
+            }
+
+
+        }
+        
+    }
+    &-bottom{
+        width: 900px;
+        border: $brd;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        button{
+            display: none;
+        }
+        &-line{
+            width: 900px;
+                    height: 2px;
+                    flex-shrink: 0;
+                    background-color: #D4D4D4;
+        }
+        &-line2{
+            width: 100px;
+                    height: 2px;
+                    flex-shrink: 0;
+                    background-color: #000000;
+                    position: absolute;
+                    top: 50%;
+                    left: 45%;
+        }
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    .pопулярные-отели{
+        width: 1000px;
+    height: 700px;
+    border: $brd;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8;
+
+    &-top{
+        margin-bottom: 40px;
+        width: 500px;
+        border: $brd;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // gap: 20px;
+        .Hotels{
+            width: 140px;
+        }
+        h1{
+            color: black;
+            font-family: $roboto;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+        h2{
+            color: black;
+            font-family: $roboto;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+
+    }
+
+    &-center{
+        width: 100%;
+         border: $brd;
+         height: 50%;
+         ul{
+             width: 100%;
+             height: 100%;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             gap: 10px;
+             .marquis-li{
+                 width: 100px;
+                 height: 250px;
+                 flex-shrink: 0;
+                 background-image: url(../../img/marquis.png);
+                 background-size: auto;
+                 border-radius: 0px 30px 30px 0px;
+                 display: none;
+             }
+             .ritz-li{
+                 width: 220px;
+                 height: 280px;
+                 flex-shrink: 0;
+                 border-radius: 0px 0px 30px 0px;
+                 background-image: url(../../img/nmm.png);
+                 background-size: cover;
+                 display: flex;
+                 flex-direction: column;
+                 gap: 70px;
+                 margin-left: 0px;
+                
+                 &-top{
+                     width: 100%;
+                     height: 30%;
+                     border: $brd;
+                     position: relative;
+                     display: block;
+                   
+                     
+                     display: none;
+                     p{
+                         font-family: 'Diphylleia', serif;
+                         color:  #ffffff;
+                             text-align: right;
+ 
+                             font-size: 65px;
+                             font-style: normal;
+                             font-weight: 400;
+                             line-height: normal;
+                             text-transform: uppercase;
+                             width: 300px;
+                             
+                     }
+                     .star{
+                         position: absolute;
+                         top: 12%;
+                         left: 90%;
+                         display: none;
+                     }
+                 }
+                 &-bottom{
+                     margin-top: 50px;
+                     width: 100%;
+                     height: 30%;
+                     border: $brd;
+                     position: relative;
+                     display: flex;
+                     flex-direction: column;
+                     gap: 10px;
+                     display: none;
+                     h2{
+                         color:  #FFF;
+                         font-family: $roboto;
+                         font-size: 28px;
+                         font-style: normal;
+                         font-weight: 500;
+                         line-height: normal;
+                         text-transform: uppercase;
+                         width: 300px;
+                     }
+                     p{
+                         color:  #FFF;
+                         font-family: $roboto;
+                         font-size: 14px;
+                         font-style: normal;
+                         font-weight: 300;
+                         line-height: normal;
+                         width: 300px;
+                     }
+                 }
+             }
+             .villa-li{
+                 width: 480px;
+                 height: 360px;
+                 flex-shrink: 0;
+                 border-radius: 30px;
+                 background-image: url(../../img/villa.png);
+                 background-size: cover;
+                 display: flex;
+                 flex-direction: column;
+                 gap: 70px;
+                 &-top{
+                     width: 100%;
+                     height: 30%;
+                     border: $brd;
+                     position: relative;
+                     p{
+                         font-family: 'Diphylleia', serif;
+                         color:  #ffffff;
+                             text-align: right;
+ 
+                             font-size: 65px;
+                             font-style: normal;
+                             font-weight: 400;
+                             line-height: normal;
+                             text-transform: uppercase;
+                             width: 350px;
+                             
+                     }
+                     .star{
+                         position: absolute;
+                         top: 12%;
+                         left: 90%;
+                     }
+                 }
+                 &-bottom{
+                     margin-top: 50px;
+                     width: 100%;
+                     height: 30%;
+                     border: $brd;
+                     position: relative;
+                     display: flex;
+                     flex-direction: column;
+                     gap: 10px;
+                     h2{
+                         color:  #FFF;
+                         font-family: $roboto;
+                         font-size: 28px;
+                         font-style: normal;
+                         font-weight: 500;
+                         line-height: normal;
+                         text-transform: uppercase;
+                         width: 400px;
+                     }
+                     p{
+                         color:  #FFF;
+                         font-family: $roboto;
+                         font-size: 14px;
+                         font-style: normal;
+                         font-weight: 300;
+                         line-height: normal;
+                         width: 400px;
+                     }
+                 }
+             }
+             .dassia-li{
+                 width: 220px;
+                 height: 280px;
+                 flex-shrink: 0;
+                 border-radius: 30px 0px 0px 30px;
+                 background-image: url(../../img/dossia-tablet.png);
+                 background-size: cover;
+                 display: flex;
+                 flex-direction: column;
+                 gap: 70px;
+                 margin-right: 0px;
+                 &-top{
+                     width: 100%;
+                     height: 30%;
+                     border: $brd;
+                     position: relative;
+                     display: none;
+                     p{
+                         font-family: 'Diphylleia', serif;
+                         color:  #ffffff;
+                             text-align: right;
+ 
+                             font-size: 65px;
+                             font-style: normal;
+                             font-weight: 400;
+                             line-height: normal;
+                             text-transform: uppercase;
+                             width: 300px;
+                             
+                     }
+                     .star{
+                         position: absolute;
+                         top: 12%;
+                         left: 90%;
+                     }
+                 }
+                 &-bottom{
+                     margin-top: 200px;
+                     width: 100%;
+                     height: 30%;
+                     border: $brd;
+                     position: relative;
+                     display: flex;
+                     flex-direction: column;
+                     gap: 10px;
+                     h2{
+                         color:  #FFF;
+                         font-family: $roboto;
+                         font-size: 28px;
+                         font-style: normal;
+                         font-weight: 500;
+                         line-height: normal;
+                         text-transform: uppercase;
+                         width: 550px;
+                     }
+                     p{
+                         color:  #FFF;
+                         font-family: $roboto;
+                         font-size: 14px;
+                         font-style: normal;
+                         font-weight: 300;
+                         line-height: normal;
+                         width: 250px;
+                     }
+                 }
+             }
+              .marri-li{
+                 width: 100px;
+                 height: 250px;
+                 flex-shrink: 0;
+                 background-image: url(../../img/marri.png);
+                 background-size: auto;
+                 border-radius: 30px 0px 0px 30px;
+                 display: none;
+             }
+ 
+ 
+         }
+         
+     }
+     &-bottom{
+        width: 900px;
+        border: $brd;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        button{
+            display: none;
+        }
+        &-line{
+            width: 900px;
+                    height: 2px;
+                    flex-shrink: 0;
+                    background-color: #D4D4D4;
+        }
+        &-line2{
+            width: 150px;
+                    height: 2px;
+                    flex-shrink: 0;
+                    background-color: #000000;
+                    position: absolute;
+                    top: 50%;
+                    left: 45%;
+        }
+    }
+    }
+}
+
+
+@media screen and (max-width:400px) {
+    .pопулярные-отели{
+        margin-top: -100px;
+        width: 399px;
+    height: 1250px;
+    border: $brd;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8;
+    flex-direction: column;
+    &-top{
+        margin-top: -40px;
+        width: 399px;
+        border: $brd;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+       
+        
+        .Hotels{
+            width: 120px;
+        }
+        h1{
+            color: black;
+            font-family: $roboto;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+          
+        }
+        h2{
+            color: black;
+            font-family: $roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            text-transform: uppercase;
+            
+        }
+
+    }
+    &-center{
+       width: 100%;
+        border: $brd;
+        height: 60%;
+        ul{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-direction: column;
+            .marquis-li{
+                width: 100px;
+                height: 250px;
+                flex-shrink: 0;
+                background-image: url(../../img/marquis.png);
+                background-size: auto;
+                border-radius: 0px 30px 30px 0px;
+                display: none;
+            }
+            .ritz-li{
+                width: 360px;
+                height: 280px;
+                flex-shrink: 0;
+                border-radius: 30px;
+                background-image: url(../../img/ritz.png);
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+                gap: 70px;
+                &-top{
+                    width: 100%;
+                    height: 30%;
+                    border: $brd;
+                    position: relative;
+                    display: flex;
+                    p{
+                        font-family: 'Diphylleia', serif;
+                        color:  #ffffff;
+                            text-align: right;
+
+                            font-size: 65px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            text-transform: uppercase;
+                            width: 300px;
+                            
+                    }
+                    .star{
+                        position: absolute;
+                        top: 12%;
+                        left: 90%;
+                        display: flex;
+                    }
+                }
+                &-bottom{
+                    margin-top: 50px;
+                    width: 100%;
+                    height: 30%;
+                    border: $brd;
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    h2{
+                        color:  #FFF;
+                        font-family: $roboto;
+                        font-size: 28px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        text-transform: uppercase;
+                        width: 300px;
+                    }
+                    p{
+                        color:  #FFF;
+                        font-family: $roboto;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 300;
+                        line-height: normal;
+                        width: 300px;
+                    }
+                }
+            }
+            .villa-li{
+                width: 360px;
+                height: 280px;
+                flex-shrink: 0;
+                border-radius: 30px;
+                background-image: url(../../img/villa.png);
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+                gap: 70px;
+                &-top{
+                    width: 100%;
+                    height: 30%;
+                    border: $brd;
+                    position: relative;
+                    p{
+                        font-family: 'Diphylleia', serif;
+                        color:  #ffffff;
+                            text-align: right;
+
+                            font-size: 65px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            text-transform: uppercase;
+                            width: 300px;
+                            
+                    }
+                    .star{
+                        position: absolute;
+                        top: 12%;
+                        left: 90%;
+                    }
+                }
+                &-bottom{
+                    margin-top: 50px;
+                    width: 100%;
+                    height: 30%;
+                    border: $brd;
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    h2{
+                        color:  #FFF;
+                        font-family: $roboto;
+                        font-size: 28px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        text-transform: uppercase;
+                        width: 300px;
+                    }
+                    p{
+                        color:  #FFF;
+                        font-family: $roboto;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 300;
+                        line-height: normal;
+                        width: 300px;
+                    }
+                }
+            }
+            .dassia-li{
+               width: 360px;
+                height: 280px;
+                flex-shrink: 0;
+                border-radius: 30px;
+                background-image: url(../../img/dassia.png);
+                background-size: cover;
+                display: flex;
+                flex-direction: column;
+                gap: 70px;
+                &-top{
+                    width: 100%;
+                    height: 30%;
+                    border: $brd;
+                    position: relative;
+                    display: flex;
+                    p{
+                        font-family: 'Diphylleia', serif;
+                        color:  #ffffff;
+                            text-align: right;
+
+                            font-size: 65px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            text-transform: uppercase;
+                            width: 300px;
+                            // display: flex;
+                            
+                    }
+                    .star{
+                        position: absolute;
+                        top: 12%;
+                        left: 90%;
+                        display: flex;
+                    }
+                }
+                &-bottom{
+                    margin-top: 50px;
+                    width: 100%;
+                    height: 30%;
+                    border: $brd;
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    h2{
+                        color:  #FFF;
+                        font-family: $roboto;
+                        font-size: 28px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        text-transform: uppercase;
+                        width: 300px;
+                    }
+                    p{
+                        color:  #FFF;
+                        font-family: $roboto;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 300;
+                        line-height: normal;
+                        width: 300px;
+                    }
+                }
+            }
+             .marri-li{
+                width: 100px;
+                height: 250px;
+                flex-shrink: 0;
+                background-image: url(../../img/marri.png);
+                background-size: auto;
+                border-radius: 30px 0px 0px 30px;
+                display: none;
+            }
+
+
+        }
+        
+    }
+    &-bottom{
+    margin-top: 50px;
+        width: 399px;
+        border: $brd;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        
+        button{
+        display: block;
+        border-radius: 30px;
+            border: 1px solid #6A6A6A;
+            width: 167px;
+            height: 40px;
+            flex-shrink: 0;
+            transition: 0.30s;
+            
+        }
+        a{
+        color: black;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+             transition: 0.30s;
+        }
+        button:hover{
+        background-color: red;
+        }
+        a:hover{
+        color: #ffffff;
+        }
+        
+        &-line{
+            width: 900px;
+                    height: 2px;
+                    flex-shrink: 0;
+                    background-color: #D4D4D4;
+                     display: none;
+        }
+        &-line2{
+            width: 150px;
+                    height: 2px;
+                    flex-shrink: 0;
+                    background-color: #000000;
+                    position: absolute;
+                    top: 50%;
+                    left: 45%;
+                     display: none;
+        }
+    }
+    }
+}
