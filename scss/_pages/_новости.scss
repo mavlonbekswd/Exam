@@ -1,0 +1,356 @@
+.nовости{
+    width: 1400px;
+    height: 700px;
+    border: $brd;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    &-top{
+        width: 70%;
+        height: 20%;
+        border: $brd;
+        position: relative;
+        .News{
+            position: absolute;
+            top: 40%;
+            left: -12%;
+        }
+        h2{
+            color: var(--, #1C1C1C);
+            font-family: Roboto;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+        h3{
+            color: var(--, #1C1C1C);
+            font-family: Roboto;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+    }
+    &-bottom{
+        width: 70%;
+        height: 60%;
+        border: $brd;
+        flex-direction: column;
+        display: flex;
+        gap: 30px;
+        .nовости-bottom-topUl{
+            width: 100%;
+            height: 50%;
+            border: $brd;
+            display: flex;
+            .nовости-bottom-topLI1{
+                width: 45%;
+                height: 100%;
+                border-radius: 30px;
+                background-image: url(../../img/news-1.png);
+                background-size: cover;
+            }
+            .nовости-bottom-topLI2{
+                width: 20%;
+                height: 100%;
+                border-radius: 30px;
+                background-image: url(../../img/naws2.png);
+                background-size: cover;
+            }
+            .nовости-bottom-topLI3{
+                width: 20%;
+                height: 100%;
+                border-radius: 30px;
+                background-image: url(../../img/naws3.png);
+                background-size: cover;
+            }
+        }
+        .nовости-bottom-bottomUl{
+            width: 100%;
+            height: 50%;
+            border: $brd;
+            display: flex;
+            
+            .nовости-bottom-bottomLI1{
+                width: 20%;
+                height: 100%;
+                border-radius: 30px;
+                background-image: url(../../img/naws4.png);
+                background-size: cover;
+            }
+            .nовости-bottom-bottomLI2{
+                width: 45%;
+                height: 100%;
+                border-radius: 30px;
+                background-image: url(../../img/naws-5.png);
+                background-size: cover;
+            }
+            .nовости-bottom-bottomLI3{
+                width: 20%;
+                height: 100%;
+                border-radius: 30px;
+                background-image: url(../../img/naws-6.png);
+                background-size: cover;
+            }
+        }
+    }
+    button{
+        display: none;
+    }
+}
+@media screen and (max-width:1024px) {
+    .nовости{
+     width: 1000px;
+    height: 700px;
+    border: $brd;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    &-top{
+        width: 90%;
+        height: 20%;
+        border: $brd;
+        position: relative;
+        .News{
+            position: absolute;
+            top: 5%;
+            left: 35%;
+        }
+        h2{
+            color: var(--, #1C1C1C);
+            font-family: $roboto;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+        h3{
+            color: var(--, #1C1C1C);
+            font-family: $roboto;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+    }
+    &-bottom{
+        width: 90%;
+        height: 60%;
+        border: $brd;
+        flex-direction: column;
+        display: flex;
+        gap: 30px;
+        .nовости-bottom-topUl{
+            width: 100%;
+            height: 50%;
+            border: $brd;
+            display: flex;
+            .nовости-bottom-topLI1{
+                width: 45%;
+                height: 100%;
+                border-radius: 30px;
+                background-image: url(../../img/news-1.png);
+                background-size: cover;
+            }
+            .nовости-bottom-topLI2{
+                width: 20%;
+                height: 100%;
+                border-radius: 30px;
+                background-image: url(../../img/naws2.png);
+                background-size: cover;
+            }
+            .nовости-bottom-topLI3{
+                width: 20%;
+                height: 100%;
+                border-radius: 30px;
+                background-image: url(../../img/naws3.png);
+                background-size: cover;
+            }
+        }
+        .nовости-bottom-bottomUl{
+            width: 100%;
+            height: 50%;
+            border: $brd;
+            display: flex;
+            
+            .nовости-bottom-bottomLI1{
+                width: 20%;
+                height: 100%;
+                border-radius: 30px;
+                background-image: url(../../img/naws4.png);
+                background-size: cover;
+            }
+            .nовости-bottom-bottomLI2{
+                width: 45%;
+                height: 100%;
+                border-radius: 30px;
+                background-image: url(../../img/naws-5.png);
+                background-size: cover;
+            }
+            .nовости-bottom-bottomLI3{
+                width: 20%;
+                height: 100%;
+                border-radius: 30px;
+                background-image: url(../../img/naws-6.png);
+                background-size: cover;
+            }
+        }
+    }
+    button{
+        display: none;
+    }
+    }
+}
+@media screen and (max-width:400px){
+  .nовости{
+  width:399px;
+    height: 1600px;
+    border: $brd;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+     &-top{
+        width: 90%;
+        height: 5%;
+        border: $brd;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        .News{
+            position: absolute;
+            top: -90%;
+            left: 25%;
+        }
+        h2{
+            color: var(--, #1C1C1C);
+            font-family: $roboto;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+        h3{
+            color: var(--, #1C1C1C);
+            font-family: $roboto;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+    }
+    &-bottom{
+        width: 90%;
+        height: 70%;
+        border: $brd;
+        flex-direction: column;
+        display: flex;
+        gap: 30px;
+        // margin-top: -30px;
+        .nовости-bottom-topUl{
+            width: 100%;
+            height: 50%;
+            border: $brd;
+            display: flex;
+            .nовости-bottom-topLI1{
+                width: 45%;
+                height: 100%;
+                border-radius: 30px;
+                background-image: url(../../img/news-1.png);
+                background-size: cover;
+                display: none;
+            }
+            .nовости-bottom-topLI2{
+                width: 90%;
+                height: 100%;
+                border-radius: 30px;
+                background-image: url(../../img/naws2.png);
+                background-size: cover;
+                // display: none;
+            }
+            .nовости-bottom-topLI3{
+                width: 20%;
+                height: 100%;
+                border-radius: 30px;
+                background-image: url(../../img/naws3.png);
+                background-size: cover;
+                display: none;
+                
+            }
+        }
+        .nовости-bottom-bottomUl{
+            width: 100%;
+            height: 100%;
+            border: $brd;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            
+            .nовости-bottom-bottomLI1{
+                width: 90%;
+                height: 100%;
+                border-radius: 30px;
+                background-image: url(../../img/naws4.png);
+                background-size: cover;
+            }
+            .nовости-bottom-bottomLI2{
+                width: 45%;
+                height: 100%;
+                border-radius: 30px;
+                background-image: url(../../img/naws-5.png);
+                background-size: cover;
+                display: none;
+            }
+            .nовости-bottom-bottomLI3{
+                width: 90%;
+                height: 100%;
+                border-radius: 30px;
+                background-image: url(../../img/naws-6.png);
+                background-size: cover;
+            }
+        }
+    }
+    button{
+        display: block;
+        border-radius: 30px;
+            border: 1px solid #6A6A6A;
+            width: 197px;
+            height: 50px;
+            flex-shrink: 0;
+            transition: 0.30s;
+            margin-top: 50px;
+            
+        }
+        a{
+        color: black;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+             transition: 0.30s;
+        }
+        button:hover{
+        background-color: red;
+        }
+        a:hover{
+        color: #ffffff;
+        }
+  }
+}
